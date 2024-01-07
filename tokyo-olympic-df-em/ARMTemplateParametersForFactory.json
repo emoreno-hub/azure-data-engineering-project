@@ -19,6 +19,12 @@
 		},
 		"EntriesGenderHTTP_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/emoreno-hub/azure-data-engineering-project/main/data/EntriesGender.csv"
+		},
+		"MedalsHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/emoreno-hub/azure-data-engineering-project/main/data/Medals.csv"
+		},
+		"TeamsHTTP_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/emoreno-hub/azure-data-engineering-project/main/data/Teams.csv"
 		}
 	}
 }

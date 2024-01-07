@@ -27,6 +27,14 @@
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/emoreno-hub/azure-data-engineering-project/main/data/EntriesGender.csv"
 		},
+		"MedalsHTTP_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/emoreno-hub/azure-data-engineering-project/main/data/Medals.csv"
+		},
+		"TeamsHTTP_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/emoreno-hub/azure-data-engineering-project/main/data/Teams.csv"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -68,6 +76,12 @@
 					},
 					"EntriesGenderHTTP_properties_typeProperties_url": {
 						"value": "[parameters('EntriesGenderHTTP_properties_typeProperties_url')]"
+					},
+					"MedalsHTTP_properties_typeProperties_url": {
+						"value": "[parameters('MedalsHTTP_properties_typeProperties_url')]"
+					},
+					"TeamsHTTP_properties_typeProperties_url": {
+						"value": "[parameters('TeamsHTTP_properties_typeProperties_url')]"
 					}
 				}
 			},
